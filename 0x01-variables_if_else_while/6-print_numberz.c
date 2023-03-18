@@ -7,10 +7,10 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	char a = '0';
+	int n = 0;
 	
-	for(a='0'; a<='9'; a++){
-		putchar(a);
+	for(n=0; n<=9; n++){
+		putchar(str(n));
 	}
 	putchar('\n');
 	
