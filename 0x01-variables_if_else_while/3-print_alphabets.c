@@ -6,9 +6,14 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n;
 	/* your code goes there */
-  
-  
+	
+  	char a = 'a';
+	
+	for(a='a'; a<='Z'; a++){
+		putchar(a);	
+	}
+	putchar('\n');
+	
 	return (0);
 }
