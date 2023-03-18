@@ -1,3 +1,4 @@
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -6,9 +7,12 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n;
-	/* your code goes there */
-  
-  
+	char a = 'z';
+	
+	for(a='z'; a<='a'; a--){
+		putchar(a);
+	}
+	putchar('\n');
+	
 	return (0);
 }
