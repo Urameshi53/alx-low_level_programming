@@ -9,12 +9,10 @@ int main(void)
 	/* your code goes there */
 	
   	char a = 'a';
-	
+	char b = 'A';
 	for(a='a'; a<='z'; a++){
 		putchar(a);	
 	}
-	
-	char b = 'A';
 	
 	for(b='A'; b<='Z'; b++){
 		putchar(b);	
