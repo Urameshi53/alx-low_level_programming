@@ -8,7 +8,10 @@ int main(void)
 {
 	int n;
 	/* your code goes there */
-  
+  	for(n=0; n<16; n++){
+		printf("%x", n);
+	}
+	putchar('\n');
   
 	return (0);
 }
